@@ -107,6 +107,7 @@
     left: 65px;
     bottom: 75px;
     animation: scroll-up 0.5s ease-out;
+    z-index: 50;
   }
 
   @keyframes scroll-up {
@@ -139,38 +140,10 @@
   }
 }
 
-.main-bottom {
+.main-bottom-invisible {
   display: none;
 }
 
-.portfolio {
+.main-bottom-visible {
   background-color: #f8f8f8;
-
-  .ex1 {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-    width: 40%;
-    height: 25vw;
-    background-color: #1c1b20;
-
-    img {
-      margin: 50px 0;
-      width: 400px;
-    }
-  }
-
-  .ex2 {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    width: 500px;
-    height: 400px;
-    background-color: #1c1b20;
-
-    img {
-      margin: 50px 0;
-      width: 400px;
-    }
-  }
 }
